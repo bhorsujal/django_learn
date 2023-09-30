@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Django</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        ul {
+            list-style-type: square; /* Use square bullets */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Django</h1>
+    </header>
+    <div class="container">
+        <p>
+            Django is a high-level Python web framework that enables rapid development of secure and maintainable web applications. It was created with the goal of making web development easier by providing a robust set of tools and features.
+        </p>
+        <p>
+            Some key features of Django include:
+        </p>
+        <ul>
+            <li>{{ item1 }}</li>
+            <li>{{ item2 }}</li>
+            <li>{{ item3 }}</li>
+            <li>{{ item4 }}</li>
+            <li>{{ item5 }}</li>
+            <li>{{ item6 }}</li>
+        </ul>
+        <p>
+            Django follows the "batteries included" philosophy, meaning it provides many useful libraries and functionalities out of the box, allowing developers to focus on building their applications rather than reinventing the wheel.
+        </p>
+        <p>
+            Whether you're creating a simple blog or a complex web application, Django's flexibility and scalability make it a popular choice among web developers.
+        </p>
+    </div>
+</body>
+</html>
